@@ -2,13 +2,8 @@ Sub IMPRESSÃO()
 
 ' MACRO para imprimir 2 formulários A5 frente e verso em uma folha A4
 ' Está configurado para imprimir 60 formulário frente e verso em 30 folhas de A4
-<<<<<<< HEAD
-' Utilizei imprimi com o PDF Creator para unir todas as paginas e depois imprimir o arquivo
-' Imprimri como um livro pois as impressoras não tratam muito bem enviar as 60 paginas individualemnte
-=======
   'Ao imprimir utilizei o PDF Creator para unir todas as paginas e depois imprimir o arquivo,
   'pois a impressoa não trata muito bem arquivos separados
->>>>>>> 8b323814425a77713f636a2ddc115ef69d992e63
 
 Dim StartNumber, Meio, TempNumber, TempAnswer As Integer
 StartNumber = Range("AR3").Value + 1 'para continuar a numeração de onde parou
